@@ -1,14 +1,13 @@
-<%= form_with(model: product, local: true, id: "form", onsubmit: "return validation()") do |form| %>
+<%= form_with(model: product, local: true, id: 'myform', onsubmit: "return validation()") do |form| %>
   
-
   <div class="field">
-    <%= form.label :name%>
-    <%= form.text_field :name, :required => true%>
+    <%= form.label :name %>
+    <%= form.text_field :name %>
   </div>
 
-  <div class="field", value = 'price' >
+  <div class="field" >
     <%= form.label :price %>
-    <%= form.text_field :price, :required => true%>
+    <%= form.text_field :price%>
   </div>
   <div class="field">
     <%= form.label :released_on %>
@@ -16,7 +15,7 @@
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit "submit", onclick: "validation()" %>
   </div>
 
 <% end %>

@@ -13,4 +13,4 @@
 //= require rails-ujs
 //= require turbolinks
 
-//= require products_validation
+//= require product_validation
