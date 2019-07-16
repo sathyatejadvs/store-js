@@ -1,24 +1,12 @@
-# README
+# Store application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Attributes Used
 
-Things you may want to cover:
+	- Name
+	- Price
+	- Released On
 
-* Ruby version
+## Validations
 
-* System dependencies
+  - Applied Javascript validations for Name, Price fields
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
